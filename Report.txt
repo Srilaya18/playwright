@@ -1,0 +1,44 @@
+===== AUTOMATION EXECUTION REPORT =====
+
+----- Navigation Flow -----
+Login → Products → Product1 → Products → Product2 → Products → Cart → Checkout → Confirmation
+
+----- Execution Log -----
+Browser launched
+➡ Navigation: Opened Login Page
+Entered Username: standard_user
+Entered Password: secret_sauce
+Clicked: Login
+Test Case 1 - Login: PASS
+➡ Navigation: Products Page
+Clicked: Open First Product
+➡ Navigation: Opened Product 1
+Clicked: Back to Products
+➡ Navigation: Returned to Products
+Scrolled down
+Clicked: Open Second Product
+➡ Navigation: Opened Product 2
+Clicked: Back to Products
+➡ Navigation: Returned to Products Again
+Clicked: Add to Cart
+Test Case 2 - Add to Cart: PASS
+Clicked: Open Cart
+➡ Navigation: Cart Page
+Clicked: Checkout
+➡ Navigation: Checkout Page
+Test Case 3 - Checkout Page: PASS
+Entered First Name: Srilaya
+Entered Last Name: M
+Entered Postal Code: 632014
+Clicked: Continue
+Clicked: Finish
+➡ Navigation: Order Confirmation Page
+Test Case 4 - Order Completion: PASS
+Screenshot captured
+
+===== TEST SUMMARY =====
+Total Tests: 4
+Passed: 4
+Failed: 0
+
+Total Clicks: 10
